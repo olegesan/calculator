@@ -1,0 +1,90 @@
+html{
+    margin:0;
+    padding:0;
+    min-height:100vh;
+    background-image: url('https://images.unsplash.com/photo-1548140203-3bb3b3abf1cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3100&q=80');
+    background-size: cover;
+    font-family: 'VT323', monospace;
+  }
+  body{
+      margin:0px;
+      min-height:100vh;
+  }
+  #root{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height:100vh
+  }
+  .app{
+      display:flex;
+      flex-flow:column;
+      justify-content: center;
+      align-items:center;
+      min-height:100%;
+      padding:10px;
+  }
+  .buttons{
+      width:400px;
+      height:500px;
+      display:flex;
+      flex-wrap:wrap;
+  }
+  .button{
+    width:25%;
+    border:0.5px black solid;
+    font-size:2.4em;
+    color:whitesmoke;
+    font-weight: 300;
+    font-family:Helvetica, sans-serif;
+    margin:0px;
+  }
+  #zero{
+      width:50%;
+  }
+  .display{
+      width:400px;
+      display:flex;
+      flex-flow:column;
+      justify-content: space-between ;
+      min-height:150px;
+      background-color: rgba(42, 43, 44,0.95);
+      font-size: 2.5em;
+      text-align:right;
+      color:whitesmoke;
+  }
+  button:active{
+
+  }
+  .display>*{
+      padding:0.2em;
+  }
+  #formula{
+      font-size:0.7em;
+  }
+  .right-col{
+    background-color:rgba(255, 182, 45, 0.97);
+  }
+  .top-row{
+      background-color:rgba(80, 80, 80,0.97);
+  }
+  .main-btns{
+      background-color:  rgba(117, 117, 117, 0.97);
+  }
+  .calc{
+      overflow: hidden;
+      border:rgb(138, 138, 138) 0.5px solid;
+      border-radius: 10px;
+  }
+  button:focus{
+      outline: none;
+  }
+  .right-col:active{
+    background-color: rgba(206, 147, 36, 0.97);
+  }
+  .top-row:active{
+    background-color: rgba(117, 117, 117, 0.97);
+    }
+.main-btns:active{
+        background-color: rgba(177, 177, 177, 0.97);
+    }
